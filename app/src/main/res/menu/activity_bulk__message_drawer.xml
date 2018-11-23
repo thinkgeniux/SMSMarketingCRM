@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+        <item
+            android:title="Groups"
+            android:id="@+id/groups"
+            android:icon="@drawable/ic_menu_camera" />
+        <item
+            android:title="Reports/SMS_Log"
+            android:id="@+id/reports"
+            android:icon="@drawable/ic_menu_camera" />
+        <item
+            android:title="Brands"
+            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/brands"/>
+
+
+        <item
+            android:id="@+id/message"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="SMS" />
+        <item
+            android:id="@+id/bulk"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Bulk Message" />
+    </group>
+</menu>

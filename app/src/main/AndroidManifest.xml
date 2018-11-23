@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sms.thinkgeniux.sms_marketingCMS">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Activities.Bulk_Message"
+            android:label="@string/title_activity_bulk__message"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Sms"
+            android:label="@string/title_activity_sms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Reports"
+            android:label="@string/title_activity_reports"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Groups"
+            android:label="@string/title_activity_groups"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.Group_Details" />
+        <activity android:name=".Activities.Sms_Log" />
+        <activity android:name=".Activities.Brands" />
+        <activity android:name=".Activities.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.SigniIn"></activity>
+        <activity android:name=".Activities.Register"></activity>
+    </application>
+
+</manifest>

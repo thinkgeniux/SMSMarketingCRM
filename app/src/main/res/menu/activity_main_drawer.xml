@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/message"
+            android:icon="@drawable/report"
+            android:title="RECENT MESSAGES" />
+
+        <item
+            android:id="@+id/bulk"
+            android:icon="@drawable/chat"
+            android:title="SEND BULK MESSAGES" />
+        <!--<item-->
+            <!--android:id="@+id/sendmessage"-->
+            <!--android:icon="@drawable/chat"-->
+            <!--android:title="Send Message" />-->
+        <item
+            android:title="CONTACT BOOK"
+            android:id="@+id/groups"
+            android:icon="@drawable/iconbook" />
+        <!--<itemn-->
+            <!--android:title="Reports/SMS_Log"-->
+            <!--android:id="@+id/reports"-->
+            <!--android:icon="@drawable/chat" />-->
+        <item
+            android:title="SENDERS/BRANDS"
+            android:icon="@drawable/icontag"
+            android:id="@+id/brands"/>
+        <item
+            android:title="Logout"
+            android:icon="@drawable/enter"
+            android:id="@+id/logout"/>
+    </group>
+        </menu>
+
